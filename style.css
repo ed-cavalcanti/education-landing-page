@@ -590,3 +590,52 @@ body {
   color: var(--third-font-color);
   cursor: pointer;
 }
+
+footer {
+  justify-content: space-between;
+  flex-direction: column;
+  width: 1160px;
+  height: 402px;
+}
+
+.footer h3 {
+  font-size: 24px;
+  color: var(--primary-font-color);
+}
+
+.footer p {
+  font-size: 16px;
+  color: var(--secondary-font-color);
+}
+
+.ft-logo {
+  width: 285px;
+  height: 146px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about {
+  width: 71px;
+  height: 248px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.support {
+  width: 115px;
+  height: 244px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.get-app {
+  width: 135px;
+  height: 163px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-container {
+  justify-content: space-between;
+}
