@@ -1,5 +1,7 @@
 :root {
   --primary-font-color: #030303;
+  --secondary-font-color: #606176;
+  --third-font-color: #FEF4F1;
   --primary-blue: #2378FF;
   --secondary-blue: #E8F1FF;
   --primary-orange: #F77E53;
@@ -20,7 +22,10 @@ body {
 
 .header {
   width: 1180px;
-  height: 180px;
+  height: 680px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .navigation {
@@ -64,6 +69,76 @@ body {
 
 .signin-btn:hover {
   cursor: pointer;
-  box-shadow: 0px 10px 21px -3px rgba(0,0,200,0.1);;
+  box-shadow: 0px 10px 21px -3px rgba(0,0,200,0.05);;
   text-decoration: underline;
+}
+
+.banner-home {
+  width: 1180px;
+  height: 560px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-text-container {
+  width: 521px;
+  height: 486px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-title {
+  color: var(--primary-font-color);
+  height: 216px;
+  line-height: 72px;
+  margin: 0;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: start;
+  width: 521px;
+}
+
+.subtitle-20 {
+  color: var(--secondary-font-color);
+  font-size: 20px;
+  height: 96px;
+  margin: 0;
+  text-align: start;
+  width: 447px;
+}
+
+.subtitle-18 {
+  color: var(--secondary-font-color);
+  font-size: 16px;
+  height: 21px;
+  text-align: start;
+  width: 283px;
+}
+
+.subtitle-18 a {
+  color: var(--primary-blue);
+}
+
+.get-started-btn {
+  background-color: var(--primary-orange);
+  border: none;
+  border-radius: 16px;
+  color: var(--third-font-color);
+  font-size: 18px;
+  font-weight: 600;
+  height: 62px;
+  transition: .3s;
+  width: 200px;
+}
+
+.get-started-btn:hover {
+  box-shadow: 0px 10px 21px -3px rgba(190, 103, 3, 0.2);;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.home-img-container {
+  width: 694px;
+  height: 560px;
+  justify-content: flex-end;
 }
