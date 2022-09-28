@@ -7,9 +7,15 @@
   --primary-orange: #F77E53;
 }
 
+* {
+  margin: 0;
+}
+
 body {
+  align-items: center;
   font-family: 'Inter', sans-serif;;
   justify-content: center;
+  flex-direction: column;
 }
 
 .flex {
@@ -26,6 +32,7 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 125px;
 }
 
 .navigation {
@@ -141,4 +148,38 @@ body {
   width: 694px;
   height: 560px;
   justify-content: flex-end;
+}
+
+.partners {
+  width: 1180px;
+  height: 141px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.partners-title {
+  width: 251px;
+  height: 141px;
+}
+
+.partners-title h1 {
+  color: var(--primary-font-color);
+  font-size: 62px;
+  font-weight: 700;
+  width: 170px;
+  height: 75px;
+}
+
+.partners-title p {
+  color: var(--secondary-font-color);
+  font-size: 18px;
+  width: 251px;
+  height: 56px;
+}
+
+.universities {
+  width: 864px;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
 }
